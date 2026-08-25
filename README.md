@@ -27,7 +27,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 <ol>
 <li><a href="docs/1-Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/2-Especificação.md"> Especificação do Projeto</a></li>
+<li><a href="docs/2-Arquitetura_Processos.md"> Contexto do Negócio e Arquitetura de Processos</a></li>
 <li><a href="docs/3-Modelagem-Processos-Negócio.md"> Modelagem dos Processos de Negocio</a></li>
 <li><a href="docs/4-Projeto-Solucao.md"> Projeto da solução</a></li>
 <li><a href="docs/5-Gerenciamento-Projeto.md"> Gerenciamento do Projeto</a></li>
