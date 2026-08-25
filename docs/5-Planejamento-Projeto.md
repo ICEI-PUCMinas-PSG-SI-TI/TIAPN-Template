@@ -1,56 +1,48 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
+Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o **GitHub Projects**. O controle de progresso, prazos e o status das entregas ficam centralizados no quadro Kanban da ferramenta, alinhando o desenvolvimento prático do software às etapas da documentação.
 
-## 5.1. Divisão de Papéis
+> **Regra de Organização:** Para cada Sprint, deverá ser criado um Project separado no GitHub, devendo ser nomeados rigidamente como **Sprint 1**, **Sprint 2** e assim sucessivamente.
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
+---
 
-### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+## 5.1. Divisão de Papéis por Sprint
+Apresente a divisão de papéis entre os membros do grupo em cada sprint. É altamente desejável que os alunos alternem funções (como Scrum Master, Desenvolvedor Front-end, Back-end e QA/Testes) ao longo das entregas para exercitar diferentes competências.
 
-### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+* **Sprint 1 (Foco: Contexto e Arquitetura de Processos)**
+  * **Scrum Master:** Aluna X
+  * **Responsável pela Documentação (Seção 2):** Aluna Z
+  * **Pesquisa e Alinhamento:** Aluno Y e Aluno K
 
-## 5.1. Quadro de tarefas
+* **Sprint 2 (Foco: Modelagem de Processos - TO-BE)**
+  * **Scrum Master:** Aluna Y
+  * **Modelador BPMN:** Aluno K
+  * **Revisão e Documentação (Seção 3):** Aluna X e Aluna Z
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+* **Sprint 3 (Foco: Projeto da Solução, Requisitos e Banco de Dados)**
+  * **Scrum Master:** Aluno K
+  * **Modelagem de Dados (BD):** Aluna X
+  * **Especificação de Requisitos (RF/RNF):** Aluna Z e Aluno Y
 
-## Sprint 1
+* **Sprint 4 (Foco: Desenvolvimento Parcial da Aplicação)**
+  * **Scrum Master:** Aluna X
+  * **Desenvolvedor Front-end:** Aluno Y
+  * **Desenvolvedor Back-end:** Aluno K
+  * **Testes e Qualidade:** Aluna Z
 
-Atualizado em: 21/04/2024
+* **Sprint 5 (Foco: Conclusão da Ferramenta e Apresentação Final)**
+  * **Scrum Master:** Aluna Z
+  * **Ajustes Finais de Código:** Aluno Y e Aluno K
+  * **Geração do Relatório e Apresentação:** Aluna X
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+---
 
-## Sprint 2
+## 5.2. Quadro de Tarefas (Kanban no GitHub Projects)
+O acompanhamento detalhado das Histórias de Usuário, subtarefas e responsáveis por cada Sprint é feito de forma automatizada no painel oficial do **GitHub Projects** da equipe.
 
-Atualizado em: 21/04/2024
-
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
-
-
-Legenda:
-- ✔️: terminado
-- 📝: em execução
-- ⌛: atrasado
-- ❌: não iniciado
-
+> ✏️ **[Atenção aluno: Insira o link público do quadro do GitHub Projects da sua equipe abaixo]**
+> 
+> * **Link do Repositório / Board:** [Acesse o GitHub Projects da Equipe aqui](https://github.com/orgs/seu-grupo/projects/1)
 
 
 ## Links Úteis
