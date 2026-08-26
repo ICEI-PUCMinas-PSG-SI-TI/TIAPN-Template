@@ -1,4 +1,4 @@
-# 5. Planejamento do Projeto
+# 5. Cronograma e Gestão de Papéis por Sprint
 
 Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o **GitHub Projects**. O controle de progresso, prazos e o status das entregas ficam centralizados no quadro Kanban da ferramenta, alinhando o desenvolvimento prático do software às etapas da documentação.
 
