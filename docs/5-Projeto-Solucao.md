@@ -24,10 +24,15 @@ Descreva o ecossistema tecnológico adotado pela equipe para implementar a solu�
 ## 5.2. Arquitetura da Solução
 A arquitetura da solução descreve a organização estrutural do sistema, detalhando os módulos, componentes e a forma como eles se comunicam com base nas tecnologias escolhidas.
 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
+![Exemplo de um modelo de arquitetura do Site](https://miro.medium.com/v2/resize:fit:1400/1*WjQdDCRWq609T-krfFL6gA.png)
 
-> ✏️ **[Atenção aluno: Insira o diagrama de arquitetura da solução abaixo e discorra sobre ele]**
-> *Descreva aqui os módulos que compõem o sistema e explique o fluxo de comunicação ilustrado no diagrama.*
+> 💡 **Inspiração e Alinhamento Esperado:** 
+> O diagrama de arquitetura apresentado abaixo serve como principal referência e modelo inspirador para o desenvolvimento do projeto de vocês. **O motivo é estratégico:** este modelo está estruturalmente muito próximo do que a docência da disciplina espera e avalia. Ele contempla de forma clara a integração entre as camadas, a descrição do banco de dados utilizado, as ferramentas de suporte, as linguagens de programação e a infraestrutura envolvida. 
+
+
+> ✏️ **[Atenção aluno: Utilize a estrutura da figura abaixo como inspiração para desenhar a arquitetura da sua equipe, apague a imagem de exemplo para manter a documentação limpa e discorra textualmente sobre ela]**
+> 
+
 
 ---
 
