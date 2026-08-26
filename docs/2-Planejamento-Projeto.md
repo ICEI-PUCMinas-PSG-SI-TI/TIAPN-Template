@@ -1,4 +1,4 @@
-# 5. Cronograma e Gestão de Papéis por Sprint
+# 2. Cronograma e Gestão de Papéis por Sprint
 
 Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o **GitHub Projects**. O controle de progresso, prazos e o status das entregas ficam centralizados no quadro Kanban da ferramenta, alinhando o desenvolvimento prático do software às etapas da documentação.
 
@@ -8,7 +8,7 @@ Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o
 
 ---
 
-## 5.1. Divisão de Papéis por Sprint
+## 2.1. Divisão de Papéis por Sprint
 Apresente a divisão de papéis entre os membros do grupo em cada sprint. Como a equipe atua de forma Full-stack no desenvolvimento, os papéis alternam-se entre a liderança ágil, a modelagem de processos, a engenharia de dados e a codificação ponta a ponta.
 
 * 📋**Sprint 1 (Foco: Contexto e Arquitetura de Processos)**
@@ -42,7 +42,7 @@ Apresente a divisão de papéis entre os membros do grupo em cada sprint. Como a
 
 ---
 
-## 5.2. Quadros de Tarefas (Kanban no GitHub Projects)
+## 2.2. Quadros de Tarefas (Kanban no GitHub Projects)
 O acompanhamento detalhado das Histórias de Usuário, subtarefas e responsáveis por cada Sprint é feito de forma automatizada nos painéis oficiais do **GitHub Projects** da equipe.
 
 > ✏️ **[Atenção aluno: Insira abaixo os links públicos dos quadros do GitHub Projects correspondentes a cada Sprint]**
