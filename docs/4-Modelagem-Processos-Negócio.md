@@ -1,9 +1,9 @@
-# 3. Modelagem dos Processos de Negócio
+# 4. Modelagem dos Processos de Negócio
 O Gerenciamento de Processos de Negócio (BPM) não se restringe a uma ação pontual, mas constitui um ciclo contínuo de melhoria e eficiência. Deste modo, o presente trabalho abrange as etapas de **diagnóstico e arquitetura** (Seção 2) e o **redesenho da situação futura (TO-BE)** deste capítulo, estruturando a base necessária para a posterior **implementação do produto de software** nas próximas fases da disciplina.
 
 ---
 
-## 3.1. Diagnóstico da Situação Atual (Modelo AS-IS Descritivo)
+## 4.1. Diagnóstico da Situação Atual (Modelo AS-IS Descritivo)
 *(Conforme alinhado com a disciplina, o modelo AS-IS não precisa ser desenhado em BPMN. Apenas descreva textualmente como o processo funciona hoje).*
 
 
@@ -13,7 +13,7 @@ O Gerenciamento de Processos de Negócio (BPM) não se restringe a uma ação po
 
 ---
 
-## 3.3. A Solução Proposta e Elementos da Notação BPMN (Modelo TO-BE)
+## 4.2. A Solução Proposta e Elementos da Notação BPMN (Modelo TO-BE)
 O modelo **TO-BE** representa o processo redesenhado, otimizado e focado na eficiência tecnológica. Para representá-lo graficamente, utilizamos a notação BPMN aplicando os seguintes elementos:
 * **Raias (Pools e Swimlanes):** Delimitam claramente os papéis e responsabilidades de cada ator (ex: Atendente vs. Sistema vs. Gestor).
 * **Tarefas (Activities):** As ações executadas no fluxo (destacando aquelas que serão automatizadas pela aplicação).
@@ -22,7 +22,7 @@ O modelo **TO-BE** representa o processo redesenhado, otimizado e focado na efic
 
 ---
 
-## 3.4. Diagrama do Processo TO-BE dos Processos Propostos (Cenário Real)
+## 4.3. Diagrama do Processo TO-BE dos Processos Propostos (Cenário Real)
 Nesta seção, vocês deverão elaborar o fluxograma TO-BE na ferramenta BPMN — separando-o por Processo 1, Processo 2, etc. — e inserir a imagem do modelo correspondente.
 Apresente uma breve descrição explicativa sobre o que o processo modelado representa. Dica: Os quadros e o detalhamento das atividades representados nestes fluxos serão extremamente úteis para a estruturação das tabelas de banco de dados e dos requisitos nas próximas etapas do Projeto da Solução.
 
