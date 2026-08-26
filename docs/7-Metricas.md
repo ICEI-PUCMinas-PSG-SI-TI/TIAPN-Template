@@ -1,4 +1,4 @@
-# 6. Métricas
+# 7. Métricas
 Guia de Qualidade e Boas Práticas na Modelagem BPMN
 
 Para garantir que os diagramas **TO-BE** desenvolvidos pela equipe sejam claros, legíveis e sirvam de base sólida para a criação do Banco de Dados e dos Requisitos (Seção 4), o modelo de vocês será avaliado com base em critérios de **Complexidade Estrutural e Clareza**. 
