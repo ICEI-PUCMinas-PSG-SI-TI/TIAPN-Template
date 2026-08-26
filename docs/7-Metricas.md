@@ -7,7 +7,7 @@ Vocês não precisam calcular fórmulas matemáticas complexas, mas devem seguir
 
 ---
 
-## 1. Métricas de Complexidade Estrutural no BPMN
+## 7.1. Métricas de Complexidade Estrutural no BPMN
 
 As métricas de complexidade ajudam a identificar se um processo está muito intrincado, o que aumenta a taxa de erros e dificulta a compreensão pelo restante da equipe:
 
@@ -20,7 +20,7 @@ As métricas de complexidade ajudam a identificar se um processo está muito int
 
 ---
 
-## 2. Checklist de Validação do Modelo TO-BE
+## 7.2. Checklist de Validação do Modelo TO-BE
 
 Antes de finalizar a modelagem BPMN, verifique se o diagrama da equipe atende aos seguintes pontos:
 
