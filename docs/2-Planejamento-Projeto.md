@@ -13,14 +13,14 @@ Apresente a divisão de papéis entre os membros do grupo em cada sprint. Como a
 
 * 📋**Sprint 1 (Foco: Contexto e Arquitetura de Processos)**
   * **Scrum Master:** Aluna X
-  * **Arquiteto(a) de Processos (Seção 2):** Aluna Z
+  * **Arquiteto(a) de Processos (Seção 3):** Aluna Z
   * **Analista de Requisitos:** Aluno Y
   * **Apoio de Pesquisa:** Aluno K
   * **Apoio de Documentação:** Aluna W
 
 * 🔀**Sprint 2 (Foco: Modelagem de Processos - TO-BE)**
   * **Scrum Master:** Aluna Y
-  * **Modelador(a) BPMN (Seção 3):** Aluno K
+  * **Modelador(a) BPMN (Seção 4):** Aluno K
   * **Analista de Processos:** Aluna Z
   * **Pesquisa de Tecnologias/Telas:** Aluna X e Aluna W
 
