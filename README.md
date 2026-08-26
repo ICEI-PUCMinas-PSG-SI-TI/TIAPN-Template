@@ -32,9 +32,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/4-Modelagem-Processos-Negócio.md"> Modelagem dos Processos de Negocio</a></li>
 <li><a href="docs/5-Projeto-Solucao.md"> Projeto da solução</a></li>
 <li><a href="docs/6-Interface-Sistema.md"> Interface do Sistema</a></li>
-<li><a href="docs/6-Metricas.md"> Métricas do Processo</a></li>
-<li><a href="docs/7-Conclusão.md"> Conclusão</a></li>
-<li><a href="docs/8-Referências.md"> Referências</a></li>
+<li><a href="docs/7-Metricas.md"> Métricas por Indicadores do Negócioo</a></li>
+<li><a href="docs/8-Conclusão.md"> Conclusão</a></li>
+<li><a href="docs/9-Referências.md"> Referências</a></li>
 </ol>
 
 # Código
