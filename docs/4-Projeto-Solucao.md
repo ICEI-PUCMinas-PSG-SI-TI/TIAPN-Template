@@ -1,148 +1,82 @@
-## 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
+# 4. Arquitetura e Projeto da Solução
 
-## 4.1. Arquitetura da solução
+<span style="color:red">Pré-requisitos: <a href="04-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
 
+Nesta etapa, a equipe traduzirá os processos e requisitos mapeados anteriormente em uma arquitetura de software funcional, definindo o ecossistema tecnológico, a interface com o usuário, o modelo de dados e a infraestrutura do projeto.
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
- 
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
-
-### 4.2. Protótipos de telas
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>.
-A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
-![Exemplo de Wireframe](images/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
-
-
-## Diagrama de Classes
-
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
-
-## Modelo ER
-
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-
-### 4.3. Modelo de dados
-
-O desenvolvimento da solução proposta requer a existência de bases de dados que permitam efetuar os cadastros de dados e controles associados aos processos identificados, assim como recuperações.
-Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um modelo, na ferramenta visual indicada na disciplina, que contemple todas as entidades e atributos associados às atividades dos processos identificados. Deve ser gerado um único DER que suporte todos os processos escolhidos, visando, assim, uma base de dados integrada. O modelo deve contemplar, também, o controle de acesso de usuários (partes interessadas dos processos) de acordo com os papéis definidos nos modelos do processo de negócio.
-_Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos._
-
-#### 4.3.1 Modelo ER
-
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-#### 4.3.2 Esquema Relacional
-
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
 ---
 
+## 4.1. Tecnologias Utilizadas
+Descreva o ecossistema tecnológico adotado pela equipe para implementar a solução (linguagens, frameworks, bibliotecas, SGBD, ferramentas de versionamento e IDEs). 
 
-#### 4.3.3 Modelo Físico
 
-Insira aqui o script de criação das tabelas do banco de dados.
+| Dimensão | Tecnologia / Ferramenta |
+| :--- | :--- |
+| **SGBD** | MySQL / PostgreSQL |
+| **Front-end** | HTML, CSS, JavaScript (ou Framework escolhido) |
+| **Back-end** | Java Spring Boot / Node.js / Python |
+| **Deploy / Hospedagem** | GitHub Pages / Render / Vercel |
+| **Gerenciamento de Projeto** | GitHub Projects (Sprints) |
 
-Veja um exemplo:
+---
 
-<code>
+## 4.2. Arquitetura da Solução
+A arquitetura da solução descreve a organização estrutural do sistema, detalhando os módulos, componentes e a forma como eles se comunicam com base nas tecnologias escolhidas.
 
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+ ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
+
+> ✏️ **[Atenção aluno: Insira o diagrama de arquitetura da solução abaixo e discorra sobre ele]**
+> *Descreva aqui os módulos que compõem o sistema e explique o fluxo de comunicação ilustrado no diagrama.*
+
+---
+
+## 4.3. Wireframes (Esquemáticas de Tela)
+Os wireframes estruturam o layout, a disposição dos elementos e a experiência de uso (*User Experience*), definindo de forma esquemática a interface visual antes de iniciar a codificação. Eles devem refletir as interações necessárias para atender às Histórias de Usuário e aos Requisitos Funcionais, materializando graficamente o fluxo que a persona executará no sistema.
+
+![Exemplo de Wireframe tela de Login referente ao RF 01](https://fga-eps-mds.github.io/2020.1-eSaudeUnB-Wiki/img/TelaLogin.png)
+
+> ✏️ **[Atenção aluno: Insira os protótipos/wireframes das principais telas da aplicação abaixo. Aluno você deve apagar a Figura de Exemplo para evitar poluição visual da documentação.]**
+> 
+> *Lembre-se de informar qual Requisito Funcional corresponde a tela (wiereframe apresentada na documentação).*
+> 
+
+
+---
+
+## 4.4. Modelo de Dados
+O desenvolvimento da solução requer uma base de dados integrada que permita efetuar cadastros e controles associados aos processos mapeados. 
+
+### 4.4.1. Modelo Entidade-Relacionamento (MER)
+O Modelo ER representa graficamente como as entidades (objetos de negócio) se relacionam entre si na aplicação.
+
+![Exemplo de Modelo ER](https://leonardofonseca.com.br/wp-content/uploads/2021/04/image.png?w=421)
+
+> ✏️ **[Atenção aluno: Insira a imagem do Diagrama Entidade-Relacionamento (DER) integrado aqui. Aluno você deve apagar a Figura de Exemplo para evitar poluição visual da documentação]**
+> 
+
+
+### 4.4.2. Esquema Relacional
+O Esquema Relacional corresponde à representação estruturada dos dados em tabelas, especificando chaves primárias e estrangeiras.
+![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
+
+> ✏️ **[Atenção aluno: Insira o diagrama ou a representação textual do Esquema Relacional aqui. Aluno você deve apagar a Figura de Exemplo para evitar poluição visual da documentação]**
+
+### 4.4.3. Modelo Físico (Script SQL)
+O script de criação das tabelas do banco de dados deve ser versionado no diretório `src/bd/` do repositório.
+
+> ✏️ **[Atenção aluno: Insira o script SQL ou a referência do arquivo abaixo]**
+
+```sql
+-- Exemplo de Script SQL Base
+CREATE TABLE Usuario (
+    UsuId INT AUTO_INCREMENT PRIMARY KEY,
+    UsuNome VARCHAR(100) NOT NULL,
+    UsuEmail VARCHAR(100) UNIQUE NOT NULL
 );
 
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
-);
-
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
-
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
-
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
-);
-
-</code>
-
-Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
 
 
 
-
-### 4.4. Tecnologias
-
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-
-| **Dimensão**   | **Tecnologia**  |
-| ---            | ---             |
-| SGBD           | MySQL           |
-| Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
 
