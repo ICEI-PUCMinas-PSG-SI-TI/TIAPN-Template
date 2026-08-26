@@ -1,10 +1,10 @@
-# 2. Contexto do Negócio e Arquitetura de Processos
+# 3. Contexto do Negócio e Arquitetura de Processos
 
 Nesta etapa do trabalho, o objetivo é entender **o mundo real** antes de pensar em código ou telas de software. Aqui vocês vão documentar quem sofre com o problema atual, quais são as entradas e saídas do sistema de trabalho e como esse processo se encaixa na engrenagem da empresa.
 
 ---
 
-## 2.1. Investigação e Fontes Ouvidas
+## 3.1. Investigação e Fontes Ouvidas
 Os problemas e gargalos do projeto **não podem ser inventados**. Eles precisam vir de conversas reais, observações ou cenários fundamentados.
 
 * **O que preencher aqui:**
@@ -21,7 +21,7 @@ Os problemas e gargalos do projeto **não podem ser inventados**. Eles precisam 
 
 ---
 
-## 2.2. Visão Geral do Processo (Entrada, Processo e Saída)
+## 3.2. Visão Geral do Processo (Entrada, Processo e Saída)
 Antes de destrinchar a hierarquia, é importante entender os limites do processo mapeando o que entra (insumos, normas, recursos) e o que ele entrega como resultado (saída).
 
 * **Exemplo prático baseado em processos reais:**
@@ -37,7 +37,7 @@ Antes de destrinchar a hierarquia, é importante entender os limites do processo
 
 ---
 
-## 2.3. Arquitetura de Processos (Do Macro à Tarefa)
+## 3.3. Arquitetura de Processos (Do Macro à Tarefa)
 Para o projeto não ficar perdido, utilizamos a hierarquia de processos. Pensem nisso como um "zoom" que vai do panorama geral até a menor atividade, estruturando a decomposição do negócio:
 
 Preencham os níveis abaixo com base no tema do grupo (exemplo inspirado em fluxos de segurança patrimonial):
@@ -55,7 +55,7 @@ Preencham os níveis abaixo com base no tema do grupo (exemplo inspirado em flux
 > 
 ---
 
-## 2.3. Personas de Negócio e do Sistema
+## 3.3. Personas de Negócio e do Sistema
 
 ### O que é uma Persona?
 Uma **persona** é um personagem semi-fictício, baseado em pesquisas e dados reais, que representa um participante do processo ou usuário do sistema. Ela deve refletir com exatidão a quantidade e os papéis reais existentes na organização estudada.
