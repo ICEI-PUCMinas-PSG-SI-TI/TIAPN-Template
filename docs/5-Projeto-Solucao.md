@@ -61,7 +61,7 @@ O Modelo ER representa graficamente como as entidades (objetos de negócio) se r
 > 
 
 
-### .4.2. Esquema Relacional
+### 5.4.2. Esquema Relacional
 O Es5quema Relacional corresponde à representação estruturada dos dados em tabelas, especificando chaves primárias e estrangeiras.
 ![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
 
